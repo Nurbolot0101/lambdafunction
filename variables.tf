@@ -34,3 +34,8 @@ variable "api_gateway_arn" {
   type        = string
   default     = ""
 }
+
+variable "source_path" {
+  description = "Path to the Lambda function zip file"
+  type        = string
+}
