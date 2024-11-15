@@ -18,6 +18,6 @@ resource "aws_lambda_permission" "allow_api_gateway" {
   action        = "lambda:InvokeFunction"
   function_name = aws_lambda_function.this.function_name
   principal     = "apigateway.amazonaws.com"
-  source_arn    = "arn:aws:execute-api:us-east-1:<account-id>:5dj3h1cbk4/*"
+  source_arn    = "arn:aws:execute-api:us-east-1:211125573612:5dj3h1cbk4/*"
 }
 
